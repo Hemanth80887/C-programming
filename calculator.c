@@ -25,7 +25,7 @@ int main(){
             break;
         case '/':
             if(num2==0){
-                printf("You cant divide by zero!");
+                printf("You cant divide by zero!\n");
             }
             else{
                 result = num1/num2;
